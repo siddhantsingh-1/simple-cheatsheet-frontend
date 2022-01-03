@@ -1,0 +1,55 @@
+* {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+	color: #faf9f6;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background-image: linear-gradient(
+		rgba(144, 160, 228, 1),
+		rgba(105, 30, 17, 1)
+	);
+}
+
+header h1 {
+	font-size: 5em;
+}
+
+header h2 {
+	font-size: 3em;
+}
+
+header h4 {
+	font-size: 1.5em;
+}
+
+main h2 {
+	font-size: 2.5em;
+	margin-left: 360px;
+}
+
+table {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table th {
+	font-size: 1.2em;
+}
+
+td,
+th {
+	border: 2px inset darkblue;
+}
+
+td.tag {
+	color: maroon;
+	font-weight: normal;
+}
+
+ul {
+	list-style: square;
+}
