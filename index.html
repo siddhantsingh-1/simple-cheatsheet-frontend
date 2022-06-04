@@ -1,107 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Semantic HTML Cheatsheet</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Semantic HTML Cheatsheet</title>
-</head>
-
-<body>
-    <header>
-        <h1>Semantic HTML</h1>
-        <h2>Why use semantic HTML?</h2>
-        <h4>According to the W3C:
-            "A semantic Web allows data to be shared and reused across
-            applications, enterprises, and communities."</h4>
-    </header>
-    <main>
-        <h2>List of Semantic HTML Tags:-</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>HTML Tag</th>
-                    <th>Usage</th>
-                    <th>Examples/Notes</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="tag">&lt;section&gt;</td>
-                    <td>A section is a thematic grouping of content, typically with a heading.</td>
-                    <td>
-                        <ul>
-                            <li>Chapters</li>
-                            <li>Introductions</li>
-                            <li>News Items</li>
-                            <li>Contact information</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="tag">&lt;article&gt;</td>
-                    <td>An article should make sense on its own, and it should
-                        be possible to distribute it independently
-                        from the rest of the web site.</td>
-                    <td>
-                        <ul>
-                            <li>Forum posts</li>
-                            <li>Blog posts</li>
-                            <li>User comments</li>
-                            <li>Product cards</li>
-                            <li>Newspaper articles</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="tag">&lt;header&gt;</td>
-                    <td>The header represents a container for
-                        introductory content or a set of navigational links.</td>
-                    <td>
-                        <ul>
-                            <li>One or more heading elements (&lt;h1&gt; - &lt;h6&gt;)</li>
-                            <li>Logo or icon</li>
-                            <li>Authorship Information</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="tag">&lt;footer&gt;</td>
-                    <td>The footer defines a footer for a document or section.</td>
-                    <td>
-                        <ul>
-                            <li>Authorship information</li>
-                            <li>Copyright information</li>
-                            <li>Contact information</li>
-                            <li>Site Map</li>
-                            <li>Back to top links</li>
-                            <li>Related Documents</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="tag">&lt;nav&gt;</td>
-                    <td>The nav defines a set of navigation links.</td>
-                    <td>NOT all links of a document should be inside a &lt;nav&gt; element. The &lt;nav&gt; element is
-                        intended only for major block of navigation links.</td>
-                </tr>
-                <tr>
-                    <td class="tag">&lt;aside&gt;</td>
-                    <td>The aside defines some content aside from
-                        the content it is placed in (like a sidebar).</td>
-                    <td>The &lt;aside&gt; content should be indirectly related to the surrounding content.</td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
-</body>
-
+    <body>
+        <header>
+            <h1>Semantic HTML</h1>
+            <h2>Why use semantic HTML?</h2>
+            <h4>
+                According to the W3C: "A semantic Web allows data to be shared
+                and reused across applications, enterprises, and communities."
+            </h4>
+        </header>
+        <main>
+            <h2>List of Semantic HTML Tags:-</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>HTML Tag</th>
+                        <th>Usage</th>
+                        <th>Examples / Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;section&gt;</td>
+                        <td>
+                            A section is a thematic grouping of content,
+                            typically with a heading.
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Chapters</li>
+                                <li>Introductions</li>
+                                <li>News Items</li>
+                                <li>Contact information</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;article&gt;</td>
+                        <td>
+                            An article should make sense on its own, and it
+                            should be possible to distribute it independently
+                            from the rest of the web site.
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Forum posts</li>
+                                <li>Blog posts</li>
+                                <li>User comments</li>
+                                <li>Product cards</li>
+                                <li>Newspaper articles</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;header&gt;</td>
+                        <td>
+                            The header represents a container for introductory
+                            content or a set of navigational links.
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    One or more heading elements (&lt;h1&gt; -
+                                    &lt;h6&gt;)
+                                </li>
+                                <li>Logo or icon</li>
+                                <li>Authorship Information</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;footer&gt;</td>
+                        <td>
+                            The footer defines a footer for a document or
+                            section.
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Authorship information</li>
+                                <li>Copyright information</li>
+                                <li>Contact information</li>
+                                <li>Site Map</li>
+                                <li>Back to top links</li>
+                                <li>Related Documents</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;nav&gt;</td>
+                        <td>The nav defines a set of navigation links.</td>
+                        <td>
+                            NOT all links of a document should be inside a
+                            &lt;nav&gt; element. The &lt;nav&gt; element is
+                            intended only for major block of navigation links.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;aside&gt;</td>
+                        <td>
+                            The aside defines some content aside from the
+                            content it is placed in (like a sidebar).
+                        </td>
+                        <td>
+                            The &lt;aside&gt; content should be indirectly
+                            related to the surrounding content.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
 </html>
